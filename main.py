@@ -7,6 +7,7 @@ import time
 try:
     # Set up Edge options and service beecause hadn't set up the path
     options = Options()
+    #give path to webdriver
     service = Service('E:\\BingAutomation\\msedgedriver.exe')
     
     # Opening the browser
